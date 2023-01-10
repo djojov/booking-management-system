@@ -45,12 +45,13 @@ namespace PresentationLayer
             // 
             // button_InsertClient
             // 
-            this.button_InsertClient.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button_InsertClient.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (115)))), ((int) (((byte) (189)))), ((int) (((byte) (168)))));
             this.button_InsertClient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_InsertClient.ForeColor = System.Drawing.SystemColors.Control;
-            this.button_InsertClient.Location = new System.Drawing.Point(37, 213);
+            this.button_InsertClient.Location = new System.Drawing.Point(49, 262);
+            this.button_InsertClient.Margin = new System.Windows.Forms.Padding(4);
             this.button_InsertClient.Name = "button_InsertClient";
-            this.button_InsertClient.Size = new System.Drawing.Size(120, 47);
+            this.button_InsertClient.Size = new System.Drawing.Size(160, 58);
             this.button_InsertClient.TabIndex = 53;
             this.button_InsertClient.Text = "Insert";
             this.button_InsertClient.UseVisualStyleBackColor = false;
@@ -59,47 +60,51 @@ namespace PresentationLayer
             // textBox_Email
             // 
             this.textBox_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox_Email.Location = new System.Drawing.Point(203, 139);
-            this.textBox_Email.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox_Email.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.textBox_Email.Location = new System.Drawing.Point(271, 171);
+            this.textBox_Email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Email.Name = "textBox_Email";
-            this.textBox_Email.Size = new System.Drawing.Size(155, 22);
+            this.textBox_Email.Size = new System.Drawing.Size(205, 26);
             this.textBox_Email.TabIndex = 52;
             // 
             // textBox_PhoneNumber
             // 
             this.textBox_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox_PhoneNumber.Location = new System.Drawing.Point(203, 98);
-            this.textBox_PhoneNumber.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox_PhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.textBox_PhoneNumber.Location = new System.Drawing.Point(271, 121);
+            this.textBox_PhoneNumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_PhoneNumber.Name = "textBox_PhoneNumber";
-            this.textBox_PhoneNumber.Size = new System.Drawing.Size(155, 22);
+            this.textBox_PhoneNumber.Size = new System.Drawing.Size(205, 26);
             this.textBox_PhoneNumber.TabIndex = 51;
             // 
             // textBox_LastName
             // 
             this.textBox_LastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox_LastName.Location = new System.Drawing.Point(202, 60);
-            this.textBox_LastName.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox_LastName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.textBox_LastName.Location = new System.Drawing.Point(269, 74);
+            this.textBox_LastName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_LastName.Name = "textBox_LastName";
-            this.textBox_LastName.Size = new System.Drawing.Size(155, 22);
+            this.textBox_LastName.Size = new System.Drawing.Size(205, 26);
             this.textBox_LastName.TabIndex = 50;
             // 
             // textBox_FirstName
             // 
             this.textBox_FirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox_FirstName.Location = new System.Drawing.Point(202, 28);
-            this.textBox_FirstName.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox_FirstName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.textBox_FirstName.Location = new System.Drawing.Point(269, 34);
+            this.textBox_FirstName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_FirstName.Name = "textBox_FirstName";
-            this.textBox_FirstName.Size = new System.Drawing.Size(155, 22);
+            this.textBox_FirstName.Size = new System.Drawing.Size(205, 26);
             this.textBox_FirstName.TabIndex = 49;
             // 
             // label_Email
             // 
             this.label_Email.AutoSize = true;
             this.label_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_Email.Location = new System.Drawing.Point(95, 142);
-            this.label_Email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Email.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_Email.Location = new System.Drawing.Point(127, 175);
             this.label_Email.Name = "label_Email";
-            this.label_Email.Size = new System.Drawing.Size(56, 16);
+            this.label_Email.Size = new System.Drawing.Size(69, 20);
             this.label_Email.TabIndex = 48;
             this.label_Email.Text = "E-mail:";
             // 
@@ -107,10 +112,10 @@ namespace PresentationLayer
             // 
             this.label_PhoneNumber.AutoSize = true;
             this.label_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_PhoneNumber.Location = new System.Drawing.Point(37, 104);
-            this.label_PhoneNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_PhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_PhoneNumber.Location = new System.Drawing.Point(49, 128);
             this.label_PhoneNumber.Name = "label_PhoneNumber";
-            this.label_PhoneNumber.Size = new System.Drawing.Size(114, 16);
+            this.label_PhoneNumber.Size = new System.Drawing.Size(138, 20);
             this.label_PhoneNumber.TabIndex = 47;
             this.label_PhoneNumber.Text = "Phone Number:";
             // 
@@ -118,10 +123,10 @@ namespace PresentationLayer
             // 
             this.label_LastName.AutoSize = true;
             this.label_LastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_LastName.Location = new System.Drawing.Point(65, 66);
-            this.label_LastName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_LastName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_LastName.Location = new System.Drawing.Point(87, 81);
             this.label_LastName.Name = "label_LastName";
-            this.label_LastName.Size = new System.Drawing.Size(86, 16);
+            this.label_LastName.Size = new System.Drawing.Size(106, 20);
             this.label_LastName.TabIndex = 46;
             this.label_LastName.Text = "Last Name:";
             // 
@@ -129,21 +134,22 @@ namespace PresentationLayer
             // 
             this.label_FirstName.AutoSize = true;
             this.label_FirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_FirstName.Location = new System.Drawing.Point(65, 28);
-            this.label_FirstName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_FirstName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_FirstName.Location = new System.Drawing.Point(87, 34);
             this.label_FirstName.Name = "label_FirstName";
-            this.label_FirstName.Size = new System.Drawing.Size(87, 16);
+            this.label_FirstName.Size = new System.Drawing.Size(108, 20);
             this.label_FirstName.TabIndex = 45;
             this.label_FirstName.Text = "First Name:";
             // 
             // button_Close
             // 
-            this.button_Close.BackColor = System.Drawing.Color.Maroon;
+            this.button_Close.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (210)))), ((int) (((byte) (162)))), ((int) (((byte) (76)))));
             this.button_Close.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_Close.ForeColor = System.Drawing.SystemColors.Control;
-            this.button_Close.Location = new System.Drawing.Point(264, 213);
+            this.button_Close.Location = new System.Drawing.Point(352, 262);
+            this.button_Close.Margin = new System.Windows.Forms.Padding(4);
             this.button_Close.Name = "button_Close";
-            this.button_Close.Size = new System.Drawing.Size(93, 47);
+            this.button_Close.Size = new System.Drawing.Size(124, 58);
             this.button_Close.TabIndex = 44;
             this.button_Close.Text = "Close";
             this.button_Close.UseVisualStyleBackColor = false;
@@ -151,10 +157,10 @@ namespace PresentationLayer
             // 
             // InsertClientForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(395, 294);
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (230)))), ((int) (((byte) (194)))));
+            this.ClientSize = new System.Drawing.Size(527, 362);
             this.Controls.Add(this.button_InsertClient);
             this.Controls.Add(this.textBox_Email);
             this.Controls.Add(this.textBox_PhoneNumber);
@@ -165,7 +171,10 @@ namespace PresentationLayer
             this.Controls.Add(this.label_LastName);
             this.Controls.Add(this.label_FirstName);
             this.Controls.Add(this.button_Close);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "InsertClientForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Insert Client";
             this.ResumeLayout(false);
             this.PerformLayout();

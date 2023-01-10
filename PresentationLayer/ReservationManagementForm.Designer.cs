@@ -53,6 +53,7 @@ namespace PresentationLayer
             // comboBox_Client
             // 
             this.comboBox_Client.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.comboBox_Client.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.comboBox_Client.FormattingEnabled = true;
             this.comboBox_Client.Location = new System.Drawing.Point(349, 84);
             this.comboBox_Client.Margin = new System.Windows.Forms.Padding(4);
@@ -63,6 +64,7 @@ namespace PresentationLayer
             // comboBox_Accommodation
             // 
             this.comboBox_Accommodation.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.comboBox_Accommodation.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.comboBox_Accommodation.FormattingEnabled = true;
             this.comboBox_Accommodation.Location = new System.Drawing.Point(140, 84);
             this.comboBox_Accommodation.Margin = new System.Windows.Forms.Padding(4);
@@ -74,6 +76,7 @@ namespace PresentationLayer
             // textBox_Id
             // 
             this.textBox_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.textBox_Id.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.textBox_Id.Location = new System.Drawing.Point(32, 77);
             this.textBox_Id.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Id.Name = "textBox_Id";
@@ -85,6 +88,7 @@ namespace PresentationLayer
             // 
             this.label_PhoneNumber.AutoSize = true;
             this.label_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label_PhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.label_PhoneNumber.Location = new System.Drawing.Point(349, 55);
             this.label_PhoneNumber.Name = "label_PhoneNumber";
             this.label_PhoneNumber.Size = new System.Drawing.Size(64, 20);
@@ -95,6 +99,7 @@ namespace PresentationLayer
             // 
             this.label_LastName.AutoSize = true;
             this.label_LastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label_LastName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.label_LastName.Location = new System.Drawing.Point(140, 55);
             this.label_LastName.Name = "label_LastName";
             this.label_LastName.Size = new System.Drawing.Size(148, 20);
@@ -105,6 +110,7 @@ namespace PresentationLayer
             // 
             this.label_Id.AutoSize = true;
             this.label_Id.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label_Id.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.label_Id.Location = new System.Drawing.Point(32, 55);
             this.label_Id.Name = "label_Id";
             this.label_Id.Size = new System.Drawing.Size(30, 20);
@@ -115,6 +121,7 @@ namespace PresentationLayer
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.label1.Location = new System.Drawing.Point(673, 55);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 20);
@@ -123,6 +130,7 @@ namespace PresentationLayer
             // 
             // dateTimePicker_DateIn
             // 
+            this.dateTimePicker_DateIn.CalendarForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.dateTimePicker_DateIn.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker_DateIn.Location = new System.Drawing.Point(673, 85);
             this.dateTimePicker_DateIn.Name = "dateTimePicker_DateIn";
@@ -132,6 +140,7 @@ namespace PresentationLayer
             // 
             // dateTimePicker_DateOut
             // 
+            this.dateTimePicker_DateOut.CalendarForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.dateTimePicker_DateOut.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker_DateOut.Location = new System.Drawing.Point(827, 85);
             this.dateTimePicker_DateOut.Name = "dateTimePicker_DateOut";
@@ -143,6 +152,7 @@ namespace PresentationLayer
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.label2.Location = new System.Drawing.Point(827, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 20);
@@ -151,7 +161,7 @@ namespace PresentationLayer
             // 
             // button_InsertReservation
             // 
-            this.button_InsertReservation.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button_InsertReservation.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (115)))), ((int) (((byte) (189)))), ((int) (((byte) (168)))));
             this.button_InsertReservation.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_InsertReservation.ForeColor = System.Drawing.SystemColors.Control;
             this.button_InsertReservation.Location = new System.Drawing.Point(292, 169);
@@ -165,7 +175,7 @@ namespace PresentationLayer
             // 
             // button_DeleteAccommodation
             // 
-            this.button_DeleteAccommodation.BackColor = System.Drawing.Color.Firebrick;
+            this.button_DeleteAccommodation.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (204)))), ((int) (((byte) (107)))), ((int) (((byte) (73)))));
             this.button_DeleteAccommodation.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_DeleteAccommodation.ForeColor = System.Drawing.SystemColors.Control;
             this.button_DeleteAccommodation.Location = new System.Drawing.Point(819, 169);
@@ -189,7 +199,7 @@ namespace PresentationLayer
             // 
             // button_Close
             // 
-            this.button_Close.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button_Close.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (210)))), ((int) (((byte) (162)))), ((int) (((byte) (76)))));
             this.button_Close.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_Close.ForeColor = System.Drawing.SystemColors.Control;
             this.button_Close.Location = new System.Drawing.Point(819, 761);
@@ -225,7 +235,7 @@ namespace PresentationLayer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (230)))), ((int) (((byte) (194)))));
             this.ClientSize = new System.Drawing.Size(964, 845);
             this.Controls.Add(this.textBox_TotalPrice);
             this.Controls.Add(this.label3);
@@ -243,7 +253,9 @@ namespace PresentationLayer
             this.Controls.Add(this.label_PhoneNumber);
             this.Controls.Add(this.label_LastName);
             this.Controls.Add(this.label_Id);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ReservationManagementForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reservation Management";
             this.Load += new System.EventHandler(this.ReservationManagementForm_Load);
             ((System.ComponentModel.ISupportInitialize) (this.dataGridView_ReservationList)).EndInit();

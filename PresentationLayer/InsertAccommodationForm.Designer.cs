@@ -45,12 +45,13 @@ namespace PresentationLayer
             // 
             // button_InsertClient
             // 
-            this.button_InsertClient.BackColor = System.Drawing.Color.RoyalBlue;
+            this.button_InsertClient.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (115)))), ((int) (((byte) (189)))), ((int) (((byte) (168)))));
             this.button_InsertClient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_InsertClient.ForeColor = System.Drawing.SystemColors.Control;
-            this.button_InsertClient.Location = new System.Drawing.Point(33, 238);
+            this.button_InsertClient.Location = new System.Drawing.Point(44, 293);
+            this.button_InsertClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_InsertClient.Name = "button_InsertClient";
-            this.button_InsertClient.Size = new System.Drawing.Size(120, 47);
+            this.button_InsertClient.Size = new System.Drawing.Size(160, 58);
             this.button_InsertClient.TabIndex = 55;
             this.button_InsertClient.Text = "Insert";
             this.button_InsertClient.UseVisualStyleBackColor = false;
@@ -58,12 +59,13 @@ namespace PresentationLayer
             // 
             // button_Close
             // 
-            this.button_Close.BackColor = System.Drawing.Color.Maroon;
+            this.button_Close.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (210)))), ((int) (((byte) (162)))), ((int) (((byte) (76)))));
             this.button_Close.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_Close.ForeColor = System.Drawing.SystemColors.Control;
-            this.button_Close.Location = new System.Drawing.Point(257, 238);
+            this.button_Close.Location = new System.Drawing.Point(343, 293);
+            this.button_Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button_Close.Name = "button_Close";
-            this.button_Close.Size = new System.Drawing.Size(93, 47);
+            this.button_Close.Size = new System.Drawing.Size(124, 58);
             this.button_Close.TabIndex = 54;
             this.button_Close.Text = "Close";
             this.button_Close.UseVisualStyleBackColor = false;
@@ -72,49 +74,55 @@ namespace PresentationLayer
             // comboBox_Category
             // 
             this.comboBox_Category.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.comboBox_Category.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.comboBox_Category.FormattingEnabled = true;
             this.comboBox_Category.Items.AddRange(new object[] {"Log Cabin", "Villa", "Cottage", "Bungalow"});
-            this.comboBox_Category.Location = new System.Drawing.Point(195, 121);
+            this.comboBox_Category.Location = new System.Drawing.Point(260, 149);
+            this.comboBox_Category.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_Category.Name = "comboBox_Category";
-            this.comboBox_Category.Size = new System.Drawing.Size(155, 24);
+            this.comboBox_Category.Size = new System.Drawing.Size(205, 28);
             this.comboBox_Category.TabIndex = 64;
             // 
             // comboBox_Status
             // 
             this.comboBox_Status.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.comboBox_Status.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
             this.comboBox_Status.FormattingEnabled = true;
             this.comboBox_Status.Items.AddRange(new object[] {"Available", "Booked"});
-            this.comboBox_Status.Location = new System.Drawing.Point(195, 82);
+            this.comboBox_Status.Location = new System.Drawing.Point(260, 101);
+            this.comboBox_Status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox_Status.Name = "comboBox_Status";
-            this.comboBox_Status.Size = new System.Drawing.Size(155, 24);
+            this.comboBox_Status.Size = new System.Drawing.Size(205, 28);
             this.comboBox_Status.TabIndex = 63;
             // 
             // textBox_PricePerDay
             // 
             this.textBox_PricePerDay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox_PricePerDay.Location = new System.Drawing.Point(195, 159);
-            this.textBox_PricePerDay.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox_PricePerDay.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.textBox_PricePerDay.Location = new System.Drawing.Point(260, 196);
+            this.textBox_PricePerDay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_PricePerDay.Name = "textBox_PricePerDay";
-            this.textBox_PricePerDay.Size = new System.Drawing.Size(155, 22);
+            this.textBox_PricePerDay.Size = new System.Drawing.Size(205, 26);
             this.textBox_PricePerDay.TabIndex = 62;
             // 
             // textBox_Name
             // 
             this.textBox_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.textBox_Name.Location = new System.Drawing.Point(195, 47);
-            this.textBox_Name.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox_Name.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.textBox_Name.Location = new System.Drawing.Point(260, 58);
+            this.textBox_Name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Name.Name = "textBox_Name";
-            this.textBox_Name.Size = new System.Drawing.Size(155, 22);
+            this.textBox_Name.Size = new System.Drawing.Size(205, 26);
             this.textBox_Name.TabIndex = 61;
             // 
             // label_Email
             // 
             this.label_Email.AutoSize = true;
             this.label_Email.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_Email.Location = new System.Drawing.Point(33, 162);
-            this.label_Email.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Email.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_Email.Location = new System.Drawing.Point(44, 199);
             this.label_Email.Name = "label_Email";
-            this.label_Email.Size = new System.Drawing.Size(108, 16);
+            this.label_Email.Size = new System.Drawing.Size(133, 20);
             this.label_Email.TabIndex = 60;
             this.label_Email.Text = "Price Per Day:";
             // 
@@ -122,10 +130,10 @@ namespace PresentationLayer
             // 
             this.label_PhoneNumber.AutoSize = true;
             this.label_PhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_PhoneNumber.Location = new System.Drawing.Point(66, 124);
-            this.label_PhoneNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_PhoneNumber.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_PhoneNumber.Location = new System.Drawing.Point(88, 153);
             this.label_PhoneNumber.Name = "label_PhoneNumber";
-            this.label_PhoneNumber.Size = new System.Drawing.Size(75, 16);
+            this.label_PhoneNumber.Size = new System.Drawing.Size(90, 20);
             this.label_PhoneNumber.TabIndex = 59;
             this.label_PhoneNumber.Text = "Category:";
             // 
@@ -133,10 +141,10 @@ namespace PresentationLayer
             // 
             this.label_LastName.AutoSize = true;
             this.label_LastName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_LastName.Location = new System.Drawing.Point(88, 85);
-            this.label_LastName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_LastName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_LastName.Location = new System.Drawing.Point(117, 105);
             this.label_LastName.Name = "label_LastName";
-            this.label_LastName.Size = new System.Drawing.Size(55, 16);
+            this.label_LastName.Size = new System.Drawing.Size(69, 20);
             this.label_LastName.TabIndex = 58;
             this.label_LastName.Text = "Status:";
             // 
@@ -144,19 +152,19 @@ namespace PresentationLayer
             // 
             this.label_FirstName.AutoSize = true;
             this.label_FirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.label_FirstName.Location = new System.Drawing.Point(88, 47);
-            this.label_FirstName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_FirstName.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.label_FirstName.Location = new System.Drawing.Point(117, 58);
             this.label_FirstName.Name = "label_FirstName";
-            this.label_FirstName.Size = new System.Drawing.Size(53, 16);
+            this.label_FirstName.Size = new System.Drawing.Size(63, 20);
             this.label_FirstName.TabIndex = 57;
             this.label_FirstName.Text = "Name:";
             // 
             // InsertAccommodationForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(390, 318);
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (230)))), ((int) (((byte) (194)))));
+            this.ClientSize = new System.Drawing.Size(520, 391);
             this.Controls.Add(this.comboBox_Category);
             this.Controls.Add(this.comboBox_Status);
             this.Controls.Add(this.textBox_PricePerDay);
@@ -167,6 +175,8 @@ namespace PresentationLayer
             this.Controls.Add(this.label_FirstName);
             this.Controls.Add(this.button_InsertClient);
             this.Controls.Add(this.button_Close);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "InsertAccommodationForm";
             this.Text = "Insert Accommodation";
             this.ResumeLayout(false);
