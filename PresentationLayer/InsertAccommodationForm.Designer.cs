@@ -49,7 +49,7 @@ namespace PresentationLayer
             this.button_InsertClient.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_InsertClient.ForeColor = System.Drawing.SystemColors.Control;
             this.button_InsertClient.Location = new System.Drawing.Point(44, 293);
-            this.button_InsertClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_InsertClient.Margin = new System.Windows.Forms.Padding(4);
             this.button_InsertClient.Name = "button_InsertClient";
             this.button_InsertClient.Size = new System.Drawing.Size(160, 58);
             this.button_InsertClient.TabIndex = 55;
@@ -63,7 +63,7 @@ namespace PresentationLayer
             this.button_Close.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_Close.ForeColor = System.Drawing.SystemColors.Control;
             this.button_Close.Location = new System.Drawing.Point(343, 293);
-            this.button_Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_Close.Margin = new System.Windows.Forms.Padding(4);
             this.button_Close.Name = "button_Close";
             this.button_Close.Size = new System.Drawing.Size(124, 58);
             this.button_Close.TabIndex = 54;
@@ -78,7 +78,7 @@ namespace PresentationLayer
             this.comboBox_Category.FormattingEnabled = true;
             this.comboBox_Category.Items.AddRange(new object[] {"Log Cabin", "Villa", "Cottage", "Bungalow"});
             this.comboBox_Category.Location = new System.Drawing.Point(260, 149);
-            this.comboBox_Category.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox_Category.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox_Category.Name = "comboBox_Category";
             this.comboBox_Category.Size = new System.Drawing.Size(205, 28);
             this.comboBox_Category.TabIndex = 64;
@@ -90,7 +90,7 @@ namespace PresentationLayer
             this.comboBox_Status.FormattingEnabled = true;
             this.comboBox_Status.Items.AddRange(new object[] {"Available", "Booked"});
             this.comboBox_Status.Location = new System.Drawing.Point(260, 101);
-            this.comboBox_Status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox_Status.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox_Status.Name = "comboBox_Status";
             this.comboBox_Status.Size = new System.Drawing.Size(205, 28);
             this.comboBox_Status.TabIndex = 63;
@@ -176,8 +176,9 @@ namespace PresentationLayer
             this.Controls.Add(this.button_InsertClient);
             this.Controls.Add(this.button_Close);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "InsertAccommodationForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Insert Accommodation";
             this.ResumeLayout(false);
             this.PerformLayout();

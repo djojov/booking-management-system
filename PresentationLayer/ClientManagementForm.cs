@@ -27,9 +27,9 @@ namespace PresentationLayer
 
         private void button_Close_Click(object sender, EventArgs e)
         {
+            RefDashboardForm.Refresh();
             this.RefDashboardForm.Show();
             this.Close();
-            RefDashboardForm.Refresh();
         }
 
         private void dataGridView_ClientList_CellClick(object sender, DataGridViewCellEventArgs e)

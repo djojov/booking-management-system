@@ -31,6 +31,8 @@ namespace PresentationLayer
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView_AccommodationList = new System.Windows.Forms.DataGridView();
             this.textBox_PricePerDay = new System.Windows.Forms.TextBox();
             this.textBox_Name = new System.Windows.Forms.TextBox();
@@ -51,9 +53,32 @@ namespace PresentationLayer
             // 
             // dataGridView_AccommodationList
             // 
+            this.dataGridView_AccommodationList.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_AccommodationList.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.dataGridView_AccommodationList.BackgroundColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            this.dataGridView_AccommodationList.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView_AccommodationList.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (230)))), ((int) (((byte) (194)))));
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int) (((byte) (204)))), ((int) (((byte) (107)))), ((int) (((byte) (73)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_AccommodationList.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView_AccommodationList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (236)))), ((int) (((byte) (230)))), ((int) (((byte) (194)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 13.8F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (111)))), ((int) (((byte) (86)))), ((int) (((byte) (67)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int) (((byte) (204)))), ((int) (((byte) (107)))), ((int) (((byte) (73)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_AccommodationList.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView_AccommodationList.GridColor = System.Drawing.Color.FromArgb(((int) (((byte) (204)))), ((int) (((byte) (107)))), ((int) (((byte) (73)))));
             this.dataGridView_AccommodationList.Location = new System.Drawing.Point(539, 43);
-            this.dataGridView_AccommodationList.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView_AccommodationList.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView_AccommodationList.Name = "dataGridView_AccommodationList";
             this.dataGridView_AccommodationList.Size = new System.Drawing.Size(757, 468);
             this.dataGridView_AccommodationList.TabIndex = 0;
@@ -152,7 +177,7 @@ namespace PresentationLayer
             this.button_InsertAccommodation.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_InsertAccommodation.ForeColor = System.Drawing.SystemColors.Control;
             this.button_InsertAccommodation.Location = new System.Drawing.Point(119, 401);
-            this.button_InsertAccommodation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_InsertAccommodation.Margin = new System.Windows.Forms.Padding(4);
             this.button_InsertAccommodation.Name = "button_InsertAccommodation";
             this.button_InsertAccommodation.Size = new System.Drawing.Size(271, 58);
             this.button_InsertAccommodation.TabIndex = 54;
@@ -166,7 +191,7 @@ namespace PresentationLayer
             this.button_DeleteAccommodation.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_DeleteAccommodation.ForeColor = System.Drawing.SystemColors.Control;
             this.button_DeleteAccommodation.Location = new System.Drawing.Point(265, 325);
-            this.button_DeleteAccommodation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_DeleteAccommodation.Margin = new System.Windows.Forms.Padding(4);
             this.button_DeleteAccommodation.Name = "button_DeleteAccommodation";
             this.button_DeleteAccommodation.Size = new System.Drawing.Size(124, 58);
             this.button_DeleteAccommodation.TabIndex = 53;
@@ -180,7 +205,7 @@ namespace PresentationLayer
             this.button_UpdateAccommodation.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_UpdateAccommodation.ForeColor = System.Drawing.SystemColors.Control;
             this.button_UpdateAccommodation.Location = new System.Drawing.Point(119, 325);
-            this.button_UpdateAccommodation.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_UpdateAccommodation.Margin = new System.Windows.Forms.Padding(4);
             this.button_UpdateAccommodation.Name = "button_UpdateAccommodation";
             this.button_UpdateAccommodation.Size = new System.Drawing.Size(124, 58);
             this.button_UpdateAccommodation.TabIndex = 52;
@@ -194,7 +219,7 @@ namespace PresentationLayer
             this.button_Close.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button_Close.ForeColor = System.Drawing.SystemColors.Control;
             this.button_Close.Location = new System.Drawing.Point(1172, 543);
-            this.button_Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button_Close.Margin = new System.Windows.Forms.Padding(4);
             this.button_Close.Name = "button_Close";
             this.button_Close.Size = new System.Drawing.Size(124, 58);
             this.button_Close.TabIndex = 51;
@@ -209,7 +234,7 @@ namespace PresentationLayer
             this.comboBox_Status.FormattingEnabled = true;
             this.comboBox_Status.Items.AddRange(new object[] {"Available", "Booked"});
             this.comboBox_Status.Location = new System.Drawing.Point(251, 151);
-            this.comboBox_Status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox_Status.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox_Status.Name = "comboBox_Status";
             this.comboBox_Status.Size = new System.Drawing.Size(205, 28);
             this.comboBox_Status.TabIndex = 55;
@@ -221,7 +246,7 @@ namespace PresentationLayer
             this.comboBox_Category.FormattingEnabled = true;
             this.comboBox_Category.Items.AddRange(new object[] {"Log Cabin", "Villa", "Cottage", "Bungalow"});
             this.comboBox_Category.Location = new System.Drawing.Point(251, 199);
-            this.comboBox_Category.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox_Category.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox_Category.Name = "comboBox_Category";
             this.comboBox_Category.Size = new System.Drawing.Size(205, 28);
             this.comboBox_Category.TabIndex = 56;
@@ -248,7 +273,7 @@ namespace PresentationLayer
             this.Controls.Add(this.label_Id);
             this.Controls.Add(this.dataGridView_AccommodationList);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AccommodationManagementForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Accommodation Management";
