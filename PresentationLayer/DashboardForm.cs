@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using Shared.Interfaces;
 using Shared.Models;
@@ -61,6 +62,18 @@ namespace PresentationLayer
             reservationManagementForm.FormClosed += new FormClosedEventHandler(FormClose);
             reservationManagementForm.Show();
             this.Hide();
+        }
+
+        private void DashboardForm_Load(object sender, EventArgs e)
+        {
+            textBox_NumberOfAccommodations.Text = accommodationBusiness.GetAllAccommodations().Count.ToString();
+            textBox_FreeAccommodations.Text = accommodationBusiness.GetAllAccommodations().Count(t => t.Status=="Available").ToString();
+            textBox_NumberOfClients.Text = clientBusiness.GetAllClients().Count.ToString();
+        }
+
+        private void textBox_NumberOfClients_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
