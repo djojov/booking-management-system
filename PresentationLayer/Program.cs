@@ -38,6 +38,8 @@ namespace PresentationLayer
             services.AddScoped<IClientBusiness, ClientBusiness>();
             services.AddScoped<IAccommodationRepository, AccommodationRepository>();
             services.AddScoped<IAccommodationBusiness, AccommodationBusiness>();
+            services.AddScoped<IReservationRepository, ReservationRepository>();
+            services.AddScoped<IReservationBusiness, ReservationBusiness>();
             services.AddScoped<LoginForm>();
         }
     }

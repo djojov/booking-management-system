@@ -11,12 +11,14 @@ namespace PresentationLayer
         private readonly IAdminBusiness adminBusiness;
         private readonly IClientBusiness clientBusiness;
         private readonly IAccommodationBusiness accommodationBusiness;
+        private readonly IReservationBusiness reservationBusiness;
 
-        public LoginForm(IAdminBusiness _adminBusiness, IClientBusiness _clientBusiness, IAccommodationBusiness _accommodationBusiness)
+        public LoginForm(IAdminBusiness _adminBusiness, IClientBusiness _clientBusiness, IAccommodationBusiness _accommodationBusiness, IReservationBusiness _reservationBusiness)
         {
             adminBusiness = _adminBusiness;
             clientBusiness = _clientBusiness;
             accommodationBusiness = _accommodationBusiness;
+            reservationBusiness = _reservationBusiness;
             InitializeComponent();
         }
 
@@ -40,7 +42,7 @@ namespace PresentationLayer
             }
             else
             {
-                DashboardForm dashboardForm = new DashboardForm(adminBusiness,clientBusiness, accommodationBusiness,admin);
+                DashboardForm dashboardForm = new DashboardForm(adminBusiness,clientBusiness, accommodationBusiness, reservationBusiness, admin);
                 dashboardForm.RefLoginForm = this;
                 this.Hide();
                 dashboardForm.Show();

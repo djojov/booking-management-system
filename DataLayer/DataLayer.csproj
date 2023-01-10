@@ -43,6 +43,7 @@
         <Compile Include="Repositories\AccommodationRepository.cs" />
         <Compile Include="Repositories\AdminRepository.cs" />
         <Compile Include="Repositories\ClientRepository.cs" />
+        <Compile Include="Repositories\ReservationRepository.cs" />
     </ItemGroup>
     <ItemGroup>
       <ProjectReference Include="..\Shared\Shared.csproj">

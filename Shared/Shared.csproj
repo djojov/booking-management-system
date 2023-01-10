@@ -44,9 +44,12 @@
         <Compile Include="Interfaces\IAdminRepository.cs" />
         <Compile Include="Interfaces\IClientBusiness.cs" />
         <Compile Include="Interfaces\IClientRepository.cs" />
+        <Compile Include="Interfaces\IReservationBusiness.cs" />
+        <Compile Include="Interfaces\IReservationRepository.cs" />
         <Compile Include="Models\Accommodation.cs" />
         <Compile Include="Models\Admin.cs" />
         <Compile Include="Models\Client.cs" />
+        <Compile Include="Models\Reservation.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

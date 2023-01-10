@@ -10,14 +10,16 @@ namespace PresentationLayer
         private readonly IAdminBusiness adminBusiness;
         private readonly IClientBusiness clientBusiness;
         private readonly IAccommodationBusiness accommodationBusiness;
+        private readonly IReservationBusiness reservationBusiness;
         Admin admin;
         
-        public DashboardForm(IAdminBusiness _adminBusiness, IClientBusiness _clientBusiness, IAccommodationBusiness _accommodationBusiness, Admin _admin)
+        public DashboardForm(IAdminBusiness _adminBusiness, IClientBusiness _clientBusiness, IAccommodationBusiness _accommodationBusiness, IReservationBusiness _reservationBusiness, Admin _admin)
         {
             admin = _admin;
             adminBusiness = _adminBusiness;
             clientBusiness = _clientBusiness;
             accommodationBusiness = _accommodationBusiness;
+            reservationBusiness = _reservationBusiness;
             InitializeComponent();
         }
         
@@ -49,6 +51,15 @@ namespace PresentationLayer
             accommodationManagementForm.RefDashboardForm = this;
             accommodationManagementForm.FormClosed += new FormClosedEventHandler(FormClose);
             accommodationManagementForm.Show();
+            this.Hide();
+        }
+
+        private void button_ReservationManagement_Click(object sender, EventArgs e)
+        {
+            ReservationManagementForm reservationManagementForm = new ReservationManagementForm(reservationBusiness, clientBusiness, accommodationBusiness);
+            reservationManagementForm.RefDashboardForm = this;
+            reservationManagementForm.FormClosed += new FormClosedEventHandler(FormClose);
+            reservationManagementForm.Show();
             this.Hide();
         }
     }
