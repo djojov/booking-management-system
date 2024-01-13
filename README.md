@@ -1,6 +1,6 @@
 ## 🛎️ Booking Management System
 
-This project was created as part of my Software Engineering class (Jan 2023) where I created a three-layer application in C# and .NET Framework to help small resorts manage their booking.
+This project was created as part of my Visual Programming class (Jan 2023) where I created a three-layer application in C# and .NET Framework to help small resorts manage their booking.
 
 ## 🛠️ Technologies and tools
 
